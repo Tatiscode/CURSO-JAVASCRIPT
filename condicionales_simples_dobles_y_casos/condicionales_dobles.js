@@ -1,0 +1,10 @@
+//CONSIDERAN LAS DOS OPCIONES ,QUE LA CONDICIÓN SEA VERDADERA,O EN CASO CONTRARIO FALSA. 
+console.log('CONDICIONAL-DOBLE')
+let edad = parseInt (prompt("Ingrese edad: "));
+//EVALUAMOS LO QUE HAREMOS EN CASO DE QUE LA CONDICIÓN SEA VERDADERA 
+if (edad >= 18 ){
+  console.log ("Puede Votar");
+  //HAREMOS LO SIGUIENTE EN CASO DE QUE LA PRIMERA CONDICIÓN NO CUMPLA .EL ELSE VA FUERA DE LAS LLAVES
+}else{
+  console.log ("No puede Votar")
+};
